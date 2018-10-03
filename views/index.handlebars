@@ -1,0 +1,31 @@
+<div class="left">
+    <h1 class="heading">Aye You Gonna Eat That?</h1>
+    <ul class="burgerList tbd">
+        {{#each burgers}}
+        {{#unless devoured}}
+        <li class="burgerListItem tbdItem">{{id}}. {{burger_name}} <button class="devourButton" data-id="{{id}}">C O N
+                S U M E</button></li>
+        {{/unless}}
+        {{/each}}
+    </ul>
+</div
+><div class="right">
+    <h1 class="heading">Okay, Guess So...Chubby...</h1>
+    <ul class="burgerList dev">
+        {{#each burgers}}
+        {{#if devoured}}
+        <li class="burgerListItem devItem">{{id}}. {{burger_name}}</li>
+        {{/if}}
+        {{/each}}
+    </ul>
+</div
+><div class="addBurger">
+    <form class="addBurgerForm">
+        <div class="burgerName">
+            <label for="newBurg">What do you call this masterpiece meal?</label>
+            <input type="text" id="newBurg" name="burger_name" placeholder="Non-vegan Only."></textarea>
+        </div>
+        <br/><br/>
+        <button class="needAClass" type="submit">Add Burger</button>
+    </form>
+</div>

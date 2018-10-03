@@ -1,0 +1,92 @@
+html {
+    background-color: salmon;
+    background-image: url("../images/kei.png");
+    background-repeat: repeat;
+    background-size: 250px;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    background-color: rgba(155,155,155,0.8);
+    padding: 20px;
+}
+
+.left {
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    margin-right: 9%;
+    padding: 0;
+}
+
+.right {
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    margin-left: 9%;
+    padding: 0;
+}
+
+.addBurger {
+    text-align: center;
+    display: block;
+    padding: 30px;
+    background-color: orange;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.burgerName {
+    background-color: blue;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.burgerName #newBurg {
+    color: blanchedalmond;
+    background-color: rebeccapurple;
+    box-shadow: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.burgerName #newBurg::placeholder {
+    color: white;
+}
+
+.needAClass {
+    padding: 50px;
+    font-size: 48px;
+    border-radius: 500px;
+    background-color: royalblue;
+    color: goldenrod;
+    border: none;
+}
+
+.burgerList {
+    background-color: rgba(0,255,0,0.6);
+    border-radius: 50px;
+    margin: 15px;
+    color: crimson;
+}
+
+.burgerList.dev {
+    border: 5px brown dashed;
+}
+
+.burgerListItem {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.devourButton {
+    font-size: 32px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
