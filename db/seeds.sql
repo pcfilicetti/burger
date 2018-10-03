@@ -1,0 +1,1 @@
+INSERT INTO burgers (burger_name, devoured) VALUES ("The Peter", 1), ("The Keiyon", 0), ("Big Mac", 0), ("Triple Double Cheeseburger", 1), ("The Bee's Knees", 1), ("Drop Table", 0);
